@@ -1,0 +1,17 @@
+.question-section {
+    background-color: rgb(52, 53, 65);
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    padding: 0.5rem;
+}
+
+.question {
+    flex: 1 1 auto;
+    text-align: left;
+    padding: 0.5rem;
+}

@@ -1,0 +1,15 @@
+.answer-section {
+    background-color: rgb(68,70,84, 0.9);
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5rem;
+}
+.icon {
+    padding: 0.5rem;
+}
+.answer {
+    flex: 1 1 auto;
+    text-align: left;
+    padding: 0.5rem;
+}

@@ -1,0 +1,40 @@
+.question-container {
+    width: 100%;
+    position: fixed;
+    height: 5vh;
+    padding: 0.4rem;
+    background-color: rgb(52, 53, 65);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 75%;
+    background: rgb(64, 65, 79, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-input {
+    border: none;
+    /*background: rgb(52,53,65);*/
+    background: rgb(64, 65, 79, 0.1);
+    padding: 0.4rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    font-size: 1.125rem;
+    color: lightgray;
+    flex: 3 1 auto;
+}
+
+.submit-btn {
+    border: none;
+    background: rgb(64, 65, 79, 0.4);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    font-size: 1.125rem;
+    color: lightgray;
+    flex: 1 1 0;
+}
