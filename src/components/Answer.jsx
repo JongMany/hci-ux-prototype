@@ -20,7 +20,7 @@ const Answer = ({ question, num, type }) => {
     // }
     let time = 1000;
     if (aiType.textImage) time = 2500;
-    if (aiType.textImage3) time = 4500;
+    if (aiType.textImage3) time = 7000;
     setTimeout(() => {
       const keywords = hasKeywordsInSentence(question);
       console.log(keywords);
@@ -44,7 +44,17 @@ const Answer = ({ question, num, type }) => {
         {!isVisible &&
           answer.imgSrcs &&
           answer.imgSrcs.map((src, idx) => (
-            <img key={idx} src={src} width='300' alt={idx} height='200' />
+            <img
+              key={idx}
+              src={src}
+              style={{
+                width: '30vw',
+                maxWidth: '30vw',
+                height: 'auto',
+              }}
+              alt={idx}
+              // height='auto'
+            />
           ))}
         <p style={{ whiteSpace: 'pre-wrap', fontSize: '0.75rem' }}>
           {!isVisible && answer.text}
